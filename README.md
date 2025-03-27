@@ -11,48 +11,52 @@ A Node.js application that uses Google's Gemini AI to help create a video upload
 
 ## 🛠️ Prerequisites
 
+- Windows OS
 - Node.js (v14 or higher)
 - npm (comes with Node.js)
 - Google Gemini API Key
 
 ## 📦 Installation
 
-1.Clone the repository:
+1. **Clone the repository**:
 
-```bash
-git clone https://github.com
-cd gemini-video-app
-```
+   ```bash
+   git clone https://github.com/yourusername/gemini-video-app.git
+   cd gemini-video-app
+   ```
 
-2.Install dependencies:
+2. **Install dependencies**:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-3.Create a `.env` file in the root directory and add your API key:
+3. **Set up environment variables**:
 
-```env
-GEMINI_API_KEY=your_api_key_here
-```
+   - Create a `.env` file in the root directory and add your API key:
+  
+     ```env
+     GEMINI_API_KEY=your_actual_api_key_here
+     ```
 
 ## 🎯 Usage
 
-4.Start the application:
+1. **Start the application**:
 
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
-1. The application will use Gemini AI to help you create your video upload app.
+2. **Functionality**:
+   - The application will use Gemini AI to generate content based on the input provided in the `agent.js` file.
 
 ## 🔒 Environment Variables
 
-Create a `.env` file with the following variables:
+- Ensure your `.env` file contains the following:
 
-```env
-GEMINI_API_KEY=your_api_key_here
-```
+  ```env
+  GEMINI_API_KEY=your_actual_api_key_here
+  ```
 
 ## 📝 License
 
